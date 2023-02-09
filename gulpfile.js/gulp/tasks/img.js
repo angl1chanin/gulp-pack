@@ -6,8 +6,6 @@ const app = require('../config/app.js');
 const plugins = require('../config/plugins.js');
 
 // Plugins
-const plumber = require('gulp-plumber');
-const notify = require('gulp-notify');
 const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 const webp = require('gulp-webp');

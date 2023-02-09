@@ -5,8 +5,6 @@ const path = require('../config/path.js');
 const app = require('../config/app.js');
 
 // Plugins
-const plumber = require('gulp-plumber');
-const notify = require('gulp-notify');
 const size = require('gulp-size');
 const autoprefixer = require('gulp-autoprefixer');
 const sass = require('gulp-sass')(require('sass'));
